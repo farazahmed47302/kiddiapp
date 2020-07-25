@@ -1,0 +1,69 @@
+#bg {
+    position:fixed; 
+    top:-50%; 
+    left:-50%; 
+    width:200%; 
+    height:200%;
+}
+
+#bg img {
+    position:absolute; 
+    top:0; 
+    left:0; 
+    right:0; 
+    bottom:0; 
+    margin:auto; 
+    min-width:50%;
+    min-height:50%;
+    opacity: 10%;
+}
+
+#page-wrap img {
+    width:80%;
+    height:80%;
+}
+
+#page-wrap {
+    z-index: 2;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    position: absolute;
+    top: -60px;
+    left: 120px;
+    text-align: center;   
+}
+
+#insdive {
+    display: inline-block;
+}
+
+#page-wrap input {
+    background-color: lightgrey;
+    opacity: 50%;
+    border-radius: 10px;
+    height: 35px;
+    width: 18em;
+    margin-top: 30px;
+    
+    
+}
+  
+#yellow-ins img {
+     
+    position: fixed;
+    left: 418px;
+    bottom: -188px;
+    padding: 0%;
+    height: 62em;
+    
+}
+
+#logo {
+    position: absolute;
+    left: 47em;
+    bottom: -188px;
+    padding: 0%;
+    width: 90%;
+
+}
